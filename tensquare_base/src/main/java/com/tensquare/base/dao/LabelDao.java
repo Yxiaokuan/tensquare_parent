@@ -1,0 +1,12 @@
+package com.tensquare.base.dao;
+
+import com.tensquare.base.pojo.Label;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+
+/**
+ * @author xiaokuan
+ * 2020/11/2 18:47 星期一
+ */
+public interface LabelDao extends JpaRepository<Label,String>, JpaSpecificationExecutor<Label> {
+}
